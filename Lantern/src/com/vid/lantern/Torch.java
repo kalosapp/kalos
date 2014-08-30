@@ -13,7 +13,7 @@ public class Torch {
 		boolean hasFlash;
 
 		hasFlash = ctx.getPackageManager().hasSystemFeature(
-				PackageManager.FEATURE_CAMERA_FLASH);
+				PackageManager.FEATURE_CAMERA_AUTOFOCUS);
 
 		if (hasFlash)
 			return true;

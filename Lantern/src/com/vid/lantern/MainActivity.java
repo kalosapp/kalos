@@ -85,7 +85,9 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onPause() {
 		super.onPause();
-
+		torch.releaseCamera(camera);
+		if(isFlashOn)
+		btnSwitch.performClick();
 	}
 
 	@Override

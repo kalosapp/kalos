@@ -17,8 +17,9 @@
         android:id="@+id/flashError"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="@string/flash_error"
-        android:textColor="#ffffff"
+        android:textColor="#CD5C5C"
         android:textSize="20sp" />
 
 </RelativeLayout>
